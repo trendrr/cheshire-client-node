@@ -1,0 +1,30 @@
+{
+  "name": "cheshireclient",
+  "version": "0.0.1",
+  "description": "persistant cheshire nodejs client",
+  "main": "client.js",
+  "homepage": "https://github.com/trendrr/node-cheshire-client",
+  "dependencies": {},
+  "devDependencies": {},
+  "config": {
+    "strest_version": 2
+  },
+  "repository": "https://github.com/trendrr/node-cheshire-client",
+  "author": {
+    "name": "Trendrr",
+    "email": "admin@trendrr.com",
+    "url": "trendrr.com"
+  },
+  "contributors": [
+    {
+      "name": "Matt Dennebaum",
+      "email": "matt@trendrr.com",
+      "web": "https://github.com/mdennebaum"
+    },
+    {
+      "name": "Dustin Norlander",
+      "email": "dustin@trendrr.com",
+      "web": "https://github.com/dustismo"
+    }
+  ],
+}

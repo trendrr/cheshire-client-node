@@ -1,0 +1,42 @@
+# IGNORED FILES #
+#################
+tmp/
+
+# Database #
+############
+*.sqlite
+
+# JSON #
+########
+all/*.json
+
+# OS files #
+############
+.DS_Store
+.DS_Store?
+Thumbs.db
+*.bak
+
+# IDE files #
+#############
+.settings
+.buildpath
+.project
+*.esproj
+*.sublime*
+.git
+
+# Node files #
+##############
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+npm-debug.log
+node_modules
+node_modules/*
