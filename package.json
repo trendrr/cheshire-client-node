@@ -6,7 +6,8 @@
   "homepage": "https://github.com/trendrr/node-cheshire-client",
   "dependencies": {
     "async": "~0.2.6",
-    "valentine": "~1.5.5"
+    "valentine": "~1.5.5",
+    "optimist": "~0.3.7"
   },
   "devDependencies": {},
   "config": {
