@@ -1,9 +1,9 @@
 {
-  "name": "cheshireclient",
+  "name": "cheshire-client-node",
   "version": "0.0.1",
   "description": "persistant cheshire nodejs client",
   "main": "client.js",
-  "homepage": "https://github.com/trendrr/node-cheshire-client",
+  "homepage": "https://github.com/trendrr/cheshire-client-node",
   "dependencies": {
     "async": "~0.2.6",
     "valentine": "~1.5.5",
@@ -13,7 +13,7 @@
   "config": {
     "strest_version": 2
   },
-  "repository": "https://github.com/trendrr/node-cheshire-client",
+  "repository": "https://github.com/trendrr/cheshire-client-node",
   "author": {
     "name": "Trendrr",
     "email": "admin@trendrr.com",
