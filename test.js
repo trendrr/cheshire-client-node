@@ -1,7 +1,7 @@
 var Client = require('./lib/client'),
 Request = require('./lib/request'),
 argv = require('optimist')
-  .usage('Test the node cheshire client.\nUsage: $0 --m single|firehose|batch')
+  .usage('Test the node cheshire client.\nUsage: $0 --m single|firehose|batch|loop')
   .demand('m')
   .alias('m', 'mode')
   .describe('m', 'Mode to test')
@@ -62,6 +62,23 @@ if(argv.m === 'firehose'){
           client.close();
         }
       );
+    }
+  });
+}else if(argv.m === 'loop'){
+  client.connect(function(err){
+    if(err){
+      console.error(err);
+    }else{
+      console.log('Client connected: ping loop...');
+      pingTimer = setInterval(function(){
+        client.doApiCall(
+          new Request('/ping', 'GET'),
+          function(err, response){
+            console.log(response);
+            console.log(response.strest.txn);
+          }
+        );
+      }, 2000);
     }
   });
 }
