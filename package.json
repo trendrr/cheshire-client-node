@@ -1,19 +1,23 @@
 {
   "name": "cheshire-client-node",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "description": "persistant cheshire nodejs client",
   "main": "client.js",
   "homepage": "https://github.com/trendrr/cheshire-client-node",
   "dependencies": {
     "async": "~0.2.6",
-    "valentine": "~1.5.5",
-    "optimist": "~0.3.7"
+    "optimist": "~0.3.7",
+    "jsonparse": "0.0.5",
+    "lodash": "~1.3.1"
   },
   "devDependencies": {},
   "config": {
     "strest_version": 2
   },
-  "repository": "https://github.com/trendrr/cheshire-client-node",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trendrr/cheshire-client-node"
+  },
   "author": {
     "name": "Trendrr",
     "email": "admin@trendrr.com",
@@ -23,17 +27,16 @@
     {
       "name": "Matt Dennebaum",
       "email": "matt@trendrr.com",
-      "web": "https://github.com/mdennebaum"
+      "url": "https://github.com/mdennebaum"
     },
     {
       "name": "Dustin Norlander",
       "email": "dustin@trendrr.com",
-      "web": "https://github.com/dustismo"
-    },
-    {
-      "name": "Alex Rass",
-      "email": "alex.rass@trendrr.com",
-      "web": "https://github.com/alexrass"
+      "url": "https://github.com/dustismo"
     }
-  ]
+  ],
+  "readme": "##Persistant node client for Cheshire services\n\n**For more info on Cheshire check out:**\n* https://github.com/dustismo/cheshire\n* https://github.com/trendrr/cheshire-golang/\n\n\n\n**To test:**\n\n```\nnode test.js --m single\nnode test.js --m batch\nnode test.js --m firehose\n```\n",
+  "readmeFilename": "README.md",
+  "_id": "cheshire-client-node@0.0.3",
+  "_from": "cheshire-client-node@*"
 }
