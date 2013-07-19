@@ -1,6 +1,6 @@
 {
   "name": "cheshire-client-node",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "persistant cheshire nodejs client",
   "main": "client.js",
   "homepage": "https://github.com/trendrr/cheshire-client-node",
